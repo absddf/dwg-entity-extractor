@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "dwg-entity-extractor"
+version = "0.1.0"
+description = "A project to extract entities from DWG files."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
